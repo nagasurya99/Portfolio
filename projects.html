@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Surya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Projects</h1>
+        <a href="index.html" style="color: blanchedalmond;">Home</a>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="proficiency.html">Proficiency</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="certifications.html">Certifications</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Academic & Professional Projects</h2>
+        <div class="project-card">
+            <img src="images/Web_development_logo.webp" alt="Web Development Logo">
+            <h3>Ticket Management System</h3>
+            <p>
+                Managing customer support requests manually can lead to delays and lack of transparency. To solve this, I developed a web-based Ticket Management System that allows users to create, purchase, and manage support tickets in real time. The front-end was built using HTML and Python Flask, providing a clean interface for ticket submission and tracking. SQL was used to store structured data such as user profiles and ticket metadata, while MongoDB was integrated to handle dynamic ticket comments and status histories. The system supports ticket prioritization, admin updates, and real-time tracking of issue resolution.
+            </p>
+            <p><strong>Technologies Used:</strong> HTML, Python, SQL, MongoDB</p>
+            <ul>
+                <li>Developed a web-based system where users can create, purchase, and manage support tickets.</li>
+                <li>Users can track status, update priorities; SQL stores user data, and MongoDB stores ticket history and comments.</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <img src="images/Machine_Learning_Logo.jpg" alt="Machine Learning Logo">
+            <h3>Plant Disease Detection Using Machine Learning & Deep Learning</h3>
+            <p>
+                Early detection of plant diseases is critical for preventing crop loss. I developed a deep learning-based solution that detects diseases from images of plant leaves. A custom image dataset was created, preprocessed, and labeled for classification. Using Convolutional Neural Networks (CNN), the model achieved high accuracy in identifying common diseases, while KNN was used for quick baseline comparisons. The model was trained and evaluated using real-world agricultural images, and the final system included a simple interface where users could upload leaf images and receive a prediction on plant health and potential disease.
+            </p>
+            <p><strong>Technologies Used:</strong> Python, CNN, KNN</p>
+            <ul>
+                <li>Designed a database schema to store images of various plant leaves, determining plant life expectancy.</li>
+                <li>Developed an interface to input leaf images and evaluate plant health based on image condition.</li>
+            </ul>
+        </div>
+
+        <div class="project-card">
+            <img src="images/Internet_of_Things_logo.jpg" alt="IoT Logo">
+            <h3>Intelligent Car-Port Reservation System Based on IoT</h3>
+            <p>
+                Urban parking issues often result in time and fuel wastage. To address this, I built an IoT-enabled Car-Port Reservation System that allows drivers to reserve parking spaces in advance. Using Raspberry Pi and sensor modules, real-time parking availability was tracked and updated to the cloud. A Python-based web interface was created where users could log in, view available slots, and reserve spots. QR code scanning was implemented for secure entry verification at the gate. The backend also stored registered vehicle data and reservation history for efficient management and analytics.
+            </p>
+            <p><strong>Technologies Used:</strong> Python, IoT, Raspberry Pi</p>
+            <ul>
+                <li>Implemented a database schema to store registered vehicle details for availability tracking.</li>
+                <li>Created a UI to reserve parking spots upon mobile login, verifying reservations via QR.</li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
